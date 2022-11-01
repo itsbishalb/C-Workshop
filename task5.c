@@ -19,13 +19,13 @@ Task:
 int main(int argc, char **argv){
     char str[50];
     char *strptr = str;
-    /* Inilitize variables here */ 
+    /* Initalize variables here */ 
 
     printf(" Input a string : ");
-    scanf("%[^\n]s",str);  /*Takes User input which have spaces*/
+    scanf("%[^\n]s",str);  /*Takes String Input*/
 
     
-   /* WRITE YOUR CODE HERE !!!!!! */
+   /* WRITE YOUR CODE HERE */
 
     return 0;
 }
