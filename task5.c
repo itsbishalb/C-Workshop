@@ -19,9 +19,13 @@ Task:
 int main(int argc, char **argv){
     char str[50];
     char *strptr = str;
+    /* Inilitize variables here */ 
 
     printf(" Input a string : ");
     scanf("%[^\n]s",str);  /*Takes User input which have spaces*/
+
+    
+   /* WRITE YOUR CODE HERE !!!!!! */
 
     return 0;
 }
