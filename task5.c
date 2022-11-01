@@ -23,6 +23,6 @@ int main(int argc, char **argv){
     printf(" Input a string : ");
     scanf("%[^\n]s",str);  /*Takes User input which have spaces*/
 
-return 0;
+    return 0;
 }
 

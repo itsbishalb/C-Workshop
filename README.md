@@ -6,7 +6,7 @@
 [Task 2:  Pass by reference](task2.c) <br>
 [Task 3: Indexing and Pointer arithmetic](task3.c) <br>
 [Task 4: Find  length of a string](task4.c) <br>
-
+[Task 5: Reverse a string](task5.c) <br>
 
 ### Solutions
 
@@ -14,3 +14,4 @@
 [Task 2](/solutions/task2-solution.c)  <br>
 [Task 3](/solutions/task3-solution.c)  <br>
 [Task 4](/solutions/task4-solution.c)  <br>
+[Task 5](/solutions/task5-solution.c)  <br>
