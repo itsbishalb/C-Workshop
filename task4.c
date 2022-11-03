@@ -4,7 +4,8 @@
 /*
 Task:
     Write a program in C to calculate the length of the string using a pointer.
-    Input: Rubber Duck Debugging
+    
+    Sample Input: Rubber Duck Debugging
     Expected Output: 21
 */
 int calculateLength(char*);
@@ -17,10 +18,13 @@ int main()
    printf(" Input a string: ");
    fgets(str1, sizeof(str1), stdin); /* takes string input */
    
-    /* INSERT YOUR CODE HERE */
+   l = calculateLength(str1);
+   printf(" The length of the string is: %d ", l-1);
+   printf("\n\n");
+   return 0;
 }
  
-int calculateLength(char* ch) /* ch = First element of array str1 ( &str1[0]  ) */
+int calculateLength(char* ch) /* ch = First element of array str1 ( &str1[0] ) */
 {
    int ctr = 0;
     /* INSERT YOUR CODE HERE */

@@ -9,11 +9,11 @@ Task:
 
 
     Sample Input: Hello
-    Sample Output: olleH
+    Expected Output: olleH
 
 
     Sample Input: Isaac is best mentor
-    Sample Output: rotnem tseb si caasI
+    Expected Output: rotnem tseb si caasI
 
 */
 int main(int argc, char **argv){

@@ -12,6 +12,12 @@
     a. normal indexing numbers[x]
     b. the insane (and bad practice) way [x]numbers
     c. pointer arithmetic 
+
+    Sample Input: The moon is made out of cheese
+    Expected Output:
+    [T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,]
+    [T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,]
+    [T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,]
  */
 
  int main()

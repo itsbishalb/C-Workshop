@@ -4,8 +4,9 @@
   Task: 
     Increment the value of i 
     by using pass by reference.
-    Incrase the value of i using
-    the increment function 
+
+    Sample Input: i = 20
+    Expected output: i = 21
  */
  void increment(int *j)
     {
