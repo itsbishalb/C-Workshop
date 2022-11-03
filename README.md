@@ -90,8 +90,6 @@ What are the values of i, j, k, x and y at the following points in the code?
 ## Practical Tasks
 ___
 
-### Tasks 
-
 ## Task 1: Add 2 numbers using pointers
 Edit the `main` function in [task1.c](/task1.c).
 
