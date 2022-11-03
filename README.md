@@ -95,14 +95,14 @@ Edit the `main` function in [task1.c](/task1.c).
 
 It should take in two integer values and store them in `*ptr` and `*qtr`, then store the value of the addition in `sum`.
  
- Input: 3
-        4
+ Input: 3 <br/>
+        4 <br/>
  Expected Output: 7
 
 ## Task 2: Pass by reference
 Pass by reference involves a function, in our case, `main`, calling the function `increment` which updates a variable in `main`. For this task, increment the value of `i` using pass by reference.
 
-Input: i = 20
+Input: i = 20 <br/>
 Expected Output: i = 21
 
 ## Task 3: Indexing vs. Pointer arithmetic
