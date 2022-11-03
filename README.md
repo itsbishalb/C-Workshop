@@ -21,7 +21,7 @@ How would you declare each of the following datatypes in C? Use any variable nam
   <li>A 2D array of characters, 8x8 length.</li>
   <li>An integer pointer.</li>
   <li>A 2D Array of Strings</li>
-<\ul>
+</ul>
 
 ### Question 2
 ```C
