@@ -24,7 +24,7 @@ How would you declare each of the following datatypes in C? Use any variable nam
 <\ul>
 
 ### Question 2
-```
+```C
 void func1(int *n) {
     *n = 10;
 }
@@ -76,23 +76,64 @@ int main() {
     /* F */
 }
 ```
-What are the values of i, j, and k,x and y at the following points in the code?
+What are the values of i, j, k, x and y at the following points in the code?
 
+ <ul>
+  <li>A</li>
+  <li>B</li>
+  <li>C</li>
+  <li>D</li>
+  <li>E</li>
+  <li>F</li>
+</ul>
+  
 ## Practical Tasks
 ___
 
 ### Tasks 
 
-[Task 1 : Add 2 numbers using pointers](/task1.c)  <br>
-[Task 2:  Pass by reference](task2.c) <br>
+## Task 1: Add 2 numbers using pointers
+Edit the `main` function in [task1.c](/task1.c).
+
+It should take in two integer values and store them in `*ptr` and `*qtr`, then store the value of the addition in `sum`.
+ 
+ Input: 3
+        4
+ Expected Output: 7
+
+## Task 2: Pass by reference
+Pass by reference involves a function, in our case, `main`, calling the function `increment` which updates a variable in `main`. For this task, increment the value of `i` using pass by reference.
+
+Input: i = 20
+Expected Output: i = 21
+
+## Task 3: Indexing vs. Pointer arithmetic
+  
+## Task 4: Find the length of a string
+  
+## Task 5: Reverse a string
+  
+[Task 2: Pass by reference](task2.c) <br>
 [Task 3: Indexing and Pointer arithmetic](task3.c) <br>
-[Task 4: Find  length of a string](task4.c) <br>
+[Task 4: Find the length of a string](task4.c) <br>
 [Task 5: Reverse a string](task5.c) <br>
 
-### Solutions
+### Getting More Practice
+---
+The best thing you can do to improve your skills in C (and programming in
+general) is practice. These are some useful websites for you to try out if you
+want to go further.
 
-[Task 1](/solutions/task1-solution.c)  <br>
-[Task 2](/solutions/task2-solution.c)  <br>
-[Task 3](/solutions/task3-solution.c)  <br>
-[Task 4](/solutions/task4-solution.c)  <br>
-[Task 5](/solutions/task5-solution.c)  <br>
+If you want to challenge yourself, try out the [Advent Of Code](https://adventofcode.com) 
+this year. During Advent (1 - 25 Dec) there's a new programming problems every day, you can 
+complete them in any programming language you want, and you can join the HackSoc leaderboard to
+compete with other people at the university! 
+
+Sites like [LeetCode](https://leetcode.com) or
+[HackerRank](https://www.hackerrank.com) are great for getting practice for
+interview questions when it comes to find a graduate job, year in industry
+placement or internship.
+
+Try some of them out if you want to push yourself! Some of the mentors may be
+able to help with these if they've done them before too, so drop a message in
+\#programming on the Discord server if you get stuck.
