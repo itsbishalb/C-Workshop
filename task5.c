@@ -1,5 +1,6 @@
-#include <stdio.h>
 
+#include <stdio.h>
+#include <string.h> 
 
 /*
 Task:
@@ -15,18 +16,25 @@ Task:
     Sample Input: Isaac is best mentor
     Expected Output: rotnem tseb si caasI
 
+    HINT: see what functions you can use from string.h file
 */
+
+void reverse_string(char*);
 int main(int argc, char **argv){
+  /* Do not edit main function */
     char str[50];
     char *strptr = str;
-    /* Initalize variables here */ 
-
     printf(" Input a string : ");
     scanf("%[^\n]s",str);  /*Takes String Input*/
-
-    
-   /* WRITE YOUR CODE HERE */
-
+    reverse_string(strptr);
+    printf("%s \n", strptr);
     return 0;
 }
 
+
+void reverse_string(char* str)
+{
+
+/* WRITE YOUR CODE HERE */
+   
+}
