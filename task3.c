@@ -27,5 +27,10 @@
 
          /* INSERT YOUR CODE HERE */
 
+         for(i = 0; i < strlen(quote); i++)
+         {
+             printf("%c", quote[i]);
+         }
+
         return 0;
     }

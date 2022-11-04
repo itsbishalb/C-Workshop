@@ -106,9 +106,15 @@ Input: i = 20 <br/>
 Expected Output: i = 21
 
 ## Task 3: Indexing vs. Pointer arithmetic
-  
+
+
 ## Task 4: Find the length of a string
-  
+[Task 4: Find the length of a string](task4.c) <br>
+For this task you need to calculate the length of a given string using a pointer. 
+The program will store a given string as a variable. The program will pass through this string to a function, in which you have to access the memory locaiton, increment an integer & pointer until the null terminater is reached.
+
+`> This string is a string`<br>
+`> The length of the string is:23` 
 ## Task 5: Reverse a string
   
 [Task 2: Pass by reference](task2.c) <br>
