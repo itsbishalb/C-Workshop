@@ -90,7 +90,7 @@ What are the values of i, j, k, x and y at the following points in the code?
 ## Practical Tasks
 ___
 
-## Task 1: Add 2 numbers using pointers
+## [Task 1: Add 2 numbers using pointers](task1.c)
 Edit the `main` function in [task1.c](/task1.c).
 
 It should take in two integer values and store them in `*ptr` and `*qtr`, then store the value of the addition in `sum`.
@@ -99,45 +99,65 @@ It should take in two integer values and store them in `*ptr` and `*qtr`, then s
         4 <br/>
  Expected Output: 7
 
-## Task 2: Pass by reference
+## [Task 2: Pass by reference](task2.c)
 Pass by reference involves a function, in our case, `main`, calling the function `increment` which updates a variable in `main`. For this task, increment the value of `i` using pass by reference.
 
 Input: i = 20 <br/>
 Expected Output: i = 21
 
-## Task 3: Indexing vs. Pointer arithmetic
-Pointer arrays (char*) are useful for making variable size arrays in ANSI C and you'll probably be encountering them in current and future CW's. For this task, increment through a char pointer array , and seperate each of the characters in a string using normal array indexing and pointer arithmetic.
 
- Sample Input: The moon is made out of cheese  <br/>
-    Expected Output: <br/>
-    \[T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,] <br/>
-    \[T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,] <br/>
-    \[T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,] <br/>
+## [Task 3: Indexing and Pointer arithmetic](task3.c)
 
-  
-## Task 4: Find the length of a string
-This task is fundementally implementing the strlen() function using indexing or pointer arithmetic. Put your implementation in the `calculateLength` function.
+For this task you need to print out a given string using 3 different methods:
+1. Normal indexing numbers[x]
+2. The insane (and bad practice) way [x]numbers
+3. Pointer arithmetic
 
-Sample Input: Beve Stagley <br/>
-Expected Output: 12
+This will teach you how to iterate through a string/array. The pointer arithmetic approach will iterate through the locations, and will allow you output the character.
+<details>
+  <summary>Hint</summary>
+  You can use `strlen()` to get the length of the string
+</details>
 
- Sample Input: Rubber Duck Debugging <br/>
-Expected Output: 21
-  
-## Task 5: Reverse a string
-For this task, you need to reverse a string (surpisingly). We handled taking the input for you in `main`. Put your implementation in the `reverseString` function.
+String:
+```c
+char quote = 'This string is a string`
+```
+Expected Output:
+```
+> [T,h,i,s, ,s,t,r,i,n,g, ,i,s, ,a, ,s,t,r,i,n,g,]
+  [T,h,i,s, ,s,t,r,i,n,g, ,i,s, ,a, ,s,t,r,i,n,g,]
+  [T,h,i,s, ,s,t,r,i,n,g, ,i,s, ,a, ,s,t,r,i,n,g,]
+  ```
 
-Sample Input: Hello <br/>
-    Expected Output: olleH
+## [Task 4: Find the length of a string](task4.c)
 
-Sample Input: Isaac is best mentor <br/>
-    Expected Output: rotnem tseb si caasI
- 
-[Task 1: Adding using Pointers](task1.c) <br>
-[Task 2: Pass by reference](task2.c) <br>
-[Task 3: Indexing vs Pointer arithmetic](task3.c) <br>
-[Task 4: Find the length of a string](task4.c) <br>
-[Task 5: Reverse a string](task5.c) <br>
+For this task you need to calculate the length of a given string using a pointer. 
+The program will store a given string as a variable. Then it will pass through this string to a function, in which you have to access the memory locaiton, increment an integer & pointer until the null terminater is reached.
+
+Input:
+
+`> This string is a string`<br>
+
+Expected Output:
+
+`> The length of the string is:23` 
+## [Task 5: Reverse a string](task5.c)
+
+For this task you will need to reverse a string. The concept of this is somewhat similar to [Task 4](#task-4-find-the-length-of-a-string). However this time you need keep the 'result' in the pointer you passed through.
+<details>
+  <summary>Hint</summary>
+  Create a tempory variable which will store the string/char
+</details>
+
+Intput:
+
+`> This string is a string`<br>
+
+Expected Output:
+
+`> gnirts a si gnirts sihT`
+
 
 ### Getting More Practice
 ---
