@@ -106,13 +106,36 @@ Input: i = 20 <br/>
 Expected Output: i = 21
 
 ## Task 3: Indexing vs. Pointer arithmetic
+Pointer arrays (char*) are useful for making variable size arrays in ANSI C and you'll probably be encountering them in current and future CW's. For this task, increment through a char pointer array , and seperate each of the characters in a string using normal array indexing and pointer arithmetic.
+
+ Sample Input: The moon is made out of cheese  <br/>
+    Expected Output: <br/>
+    \[T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,] <br/>
+    \[T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,] <br/>
+    \[T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,] <br/>
+
   
 ## Task 4: Find the length of a string
+This task is fundementally implementing the strlen() function using indexing or pointer arithmetic. Put your implementation in the `calculateLength` function.
+
+Sample Input: Beve Stagley <br/>
+Expected Output: 12
+
+ Sample Input: Rubber Duck Debugging <br/>
+Expected Output: 21
   
 ## Task 5: Reverse a string
-  
+For this task, you need to reverse a string (surpisingly). We handled taking the input for you in `main`. Put your implementation in the `reverseString` function.
+
+Sample Input: Hello <br/>
+    Expected Output: olleH
+
+Sample Input: Isaac is best mentor <br/>
+    Expected Output: rotnem tseb si caasI
+ 
+[Task 1: Adding using Pointers](task1.c) <br>
 [Task 2: Pass by reference](task2.c) <br>
-[Task 3: Indexing and Pointer arithmetic](task3.c) <br>
+[Task 3: Indexing vs Pointer arithmetic](task3.c) <br>
 [Task 4: Find the length of a string](task4.c) <br>
 [Task 5: Reverse a string](task5.c) <br>
 
