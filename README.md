@@ -107,14 +107,39 @@ Expected Output: i = 21
 
 ## [Task 3: Indexing and Pointer arithmetic](task3.c)
 
+For this task you need to print out a given string using 3 different methods:
+1. Normal indexing numbers[x]
+2. The insane (and bad practice) way [x]numbers
+3. Pointer arithmetic
 
+This will teach you how to iterate through a string/array. The pointer arithmetic approach will iterate through the locations, and will allow you output the character.
+<details>
+  <summary>Hint</summary>
+  You can use `strlen()` to get the length of the string
+</details>
+
+String:
+```c
+char quote = 'This string is a string`
+```
+Expected Output:
+```
+> [T,h,i,s, ,s,t,r,i,n,g, ,i,s, ,a, ,s,t,r,i,n,g,]
+  [T,h,i,s, ,s,t,r,i,n,g, ,i,s, ,a, ,s,t,r,i,n,g,]
+  [T,h,i,s, ,s,t,r,i,n,g, ,i,s, ,a, ,s,t,r,i,n,g,]
+  ```
 
 ## [Task 4: Find the length of a string](task4.c)
 
 For this task you need to calculate the length of a given string using a pointer. 
-The program will store a given string as a variable. The program will pass through this string to a function, in which you have to access the memory locaiton, increment an integer & pointer until the null terminater is reached.
+The program will store a given string as a variable. Then it will pass through this string to a function, in which you have to access the memory locaiton, increment an integer & pointer until the null terminater is reached.
+
+Input:
 
 `> This string is a string`<br>
+
+Expected Output:
+
 `> The length of the string is:23` 
 ## [Task 5: Reverse a string](task5.c)
 
@@ -124,7 +149,12 @@ For this task you will need to reverse a string. The concept of this is somewhat
   Create a tempory variable which will store the string/char
 </details>
 
+Intput:
+
 `> This string is a string`<br>
+
+Expected Output:
+
 `> gnirts a si gnirts sihT`
 
 
