@@ -18,6 +18,7 @@
     [T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,]
     [T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,]
     [T,h,e, ,m,o,o,n, ,i,s, ,m,a,d,e, ,o,u,t, ,o,f, ,c,h,e,e,s,e,]
+
  */
 
  int main()
@@ -26,11 +27,6 @@
         int i;
 
          /* INSERT YOUR CODE HERE */
-
-         for(i = 0; i < strlen(quote); i++)
-         {
-             printf("%c", quote[i]);
-         }
 
         return 0;
     }
