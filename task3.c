@@ -3,9 +3,9 @@
 
 /*
   Task:
-    pointer arrays are useful for making
-    variable size arrays in ANSI C
-    and you'll probably be encountering them in current and future cw's
+    Pointer arrays are useful for making
+    variable size arrays in ANSI C and you'll probably 
+    be encountering them in current and future cw's
     increment through a char pointer array 
     (i.e. like int* numbers)
     and print out every character using
