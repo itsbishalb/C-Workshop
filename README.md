@@ -105,6 +105,7 @@ Pass by reference involves a function, in our case, `main`, calling the function
 Input: i = 20 <br/>
 Expected Output: i = 21
 
+
 ## [Task 3: Indexing and Pointer arithmetic](task3.c)
 
 For this task you need to print out a given string using 3 different methods:
