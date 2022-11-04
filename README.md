@@ -90,7 +90,7 @@ What are the values of i, j, k, x and y at the following points in the code?
 ## Practical Tasks
 ___
 
-## Task 1: Add 2 numbers using pointers
+## [Task 1: Add 2 numbers using pointers](task1.c)
 Edit the `main` function in [task1.c](/task1.c).
 
 It should take in two integer values and store them in `*ptr` and `*qtr`, then store the value of the addition in `sum`.
@@ -99,28 +99,34 @@ It should take in two integer values and store them in `*ptr` and `*qtr`, then s
         4 <br/>
  Expected Output: 7
 
-## Task 2: Pass by reference
+## [Task 2: Pass by reference](task2.c)
 Pass by reference involves a function, in our case, `main`, calling the function `increment` which updates a variable in `main`. For this task, increment the value of `i` using pass by reference.
 
 Input: i = 20 <br/>
 Expected Output: i = 21
 
-## Task 3: Indexing vs. Pointer arithmetic
+## [Task 3: Indexing and Pointer arithmetic](task3.c)
 
 
-## Task 4: Find the length of a string
-[Task 4: Find the length of a string](task4.c) <br>
+
+## [Task 4: Find the length of a string](task4.c)
+
 For this task you need to calculate the length of a given string using a pointer. 
 The program will store a given string as a variable. The program will pass through this string to a function, in which you have to access the memory locaiton, increment an integer & pointer until the null terminater is reached.
 
 `> This string is a string`<br>
 `> The length of the string is:23` 
-## Task 5: Reverse a string
-  
-[Task 2: Pass by reference](task2.c) <br>
-[Task 3: Indexing and Pointer arithmetic](task3.c) <br>
-[Task 4: Find the length of a string](task4.c) <br>
-[Task 5: Reverse a string](task5.c) <br>
+## [Task 5: Reverse a string](task5.c)
+
+For this task you will need to reverse a string. The concept of this is somewhat similar to [Task 4](#task-4-find-the-length-of-a-string). However this time you need keep the 'result' in the pointer you passed through.
+<details>
+  <summary>Hint</summary>
+  Create a tempory variable which will store the string/char
+</details>
+
+`> This string is a string`<br>
+`> gnirts a si gnirts sihT`
+
 
 ### Getting More Practice
 ---

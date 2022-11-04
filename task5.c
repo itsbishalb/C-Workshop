@@ -24,7 +24,7 @@ int main(int argc, char **argv){
   /* Do not edit main function */
     char str[50];
     char *strptr = str;
-    printf(" Input a string : ");
+    printf("Input a string : ");
     scanf("%[^\n]s",str);  /*Takes String Input*/
     reverse_string(strptr);
     printf("%s \n", strptr);
